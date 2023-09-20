@@ -1,0 +1,32 @@
+ 1.Perform all Arithmetic operations------>  ans in aug27ed
+ 2.Calculate area of circle, rectangle and triangle
+ 3.Calculate simple Interest 
+ 4.Accept marks of any 3 subjects and calculate percentage.----> ans in aug30ed
+ 5.Calculate tax amount at 12% of salary
+
+ 
+ Conditional Statements Programs:
+ 1.Accept age from user and check if he/she is eligible for license or not?
+ 2.Accept a number from user and check whether it is even or odd number
+ 3.Accept 3 numbers from user and display greatest number---->            ans in aug31ed
+ 4.Accept a number from user and check whether it is +ve, -ve or zero
+ 5.Accept marks of 3 subjects and calculate total, percentage and grade.
+ 6.Accept salary of a person and print tax amount. Tax is 10% if income<25000, otherwise 15%
+ 7.Accept purchase amount from the user and print discount amount. 10% discount on purchase if amount is greater than or equal to 10000, otherwise 2% discount.
+ 8.Accept no. of calls from user and print bill amount. Rs.1 per call should be charged if no. of calls is less than 200, otherwise Rs.3 per call.
+ 
+ 
+ Methods:
+Q1.create a class Area and 4 methods circle, square, rectangle and triangle and calculate area
+Q2.create a class Arithmetic and perform all arithmetic operations, create separate method for each operation.
+Q3.
+	create a class Employee with the following data members and member functions.
+	Data members : empName,empCode, basicSalary, allowance, grossSalary, tax, netSalary
+	Member Functions :
+	void accept() : to input empName, empCode, basicSalary
+	void allow() : to calc and store allowance as 55% of basicSalary.  
+	void gross() : to calc and store grossSalary as sum of basicSalary and allowance
+	void tax() : to calc and store tax as 12% of grossSalary
+	void net() : to calc and store netSalary as grossSalary less tax.
+	void display() : to display salary slip containing empCode, empName, basicSalary, tax and netSalary
+	void main() : create an object of a class and execute all methods in logical order.
