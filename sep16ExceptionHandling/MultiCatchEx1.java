@@ -8,7 +8,7 @@ public class MultiCatchEx1 {
 		try {
 			
 			int a[] = new int[5];
-			a[7] = 12/0;
+			a[7] = 12/6;
 			
 		} catch (ArithmeticException | ArrayIndexOutOfBoundsException e) {
 			
